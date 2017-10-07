@@ -56,7 +56,7 @@ webpack会把js/css/image/html等文件都视作模块,根据模块依赖关系�
     module.exports = config;
 
 这是一个简单的示例,还有其他配置选项,下面一个一个来介绍.(因为webpack2配置方面有点改变比如,loader->rules等等,可能下面的会有所冲突)
-
+<!-- more -->
 ## 生成source Maps(调试用)
 需要在配置中设置
 devtool:'source-map'  (总共有七个选项,不同选项,打包速度也快,但也越不利于调试,调试也是各坑,有的选项打不上断点或者断点在下一行)
