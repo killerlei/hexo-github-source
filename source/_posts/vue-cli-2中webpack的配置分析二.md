@@ -6,7 +6,9 @@ tags:
     - webpack
 ---
 这片也是转载,[叶家伟的博客](http://www.cnblogs.com/ye-hcj/p/7077796.html),这里有一系列的vue-cli中webpack分析文章,可以移步阅读.
-
+另外还找到另外一片博客[vue-cli的webpack模板项目配置文件分析](http://blog.csdn.net/hongchh/article/details/55113751)
+加上前面滴滴那篇介绍,对比读起来肯定会理解的快.
+总之,网上有已有大量的学习资料,前人栽树,后人乘凉,感谢.
 ## config/index.js
         
         // see http://vuejs-templates.github.io/webpack for documentation.
