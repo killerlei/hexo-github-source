@@ -82,14 +82,27 @@
 <% } %>
 
 <% if (!index){ %>
-  <% if (theme.duoshuo && post.comments){ %>
-  <%- partial('post/duoshuo', {
-      key: post.slug,
-      title: post.title,
-      url: config.url+url_for(post.path)
-    }) %>
+<% if (theme.duoshuo && post.comments){ %>
+<%- partial('post/duoshuo', {
+  key: post.slug,
+  title: post.title,
+  url: config.url+url_for(post.path)
+}) %>
+<% } else { %>
+<div class="duoshuo"></div>
+<% } %>
+<% } %>
+
+
+<% if (!index){ %>
+  <% if (theme.gitment && post.comments){ %>
+  <%- partial('post/gitment', {
+    key: post.slug,
+    title: post.title,
+    url: config.url+url_for(post.path)
+  }) %>
   <% } else { %>
-    <div class="duoshuo"></div>
+  <div class="gitment"></div>
   <% } %>
 <% } %>
 
