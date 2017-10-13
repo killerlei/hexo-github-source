@@ -3,13 +3,13 @@ menu:
   #主页: /archives
   主页: /
   前端开发: /categories/front
-  工作日志: /categories/work
+#  工作日志: /categories/work
   点滴生活: /categories/life
 
 subnav:
   github: "https://github.com/killerlei"
   weibo: "http://weibo.com/6161724851/profile?topnav=1&wvr=6&is_all=1"
-  rss: "#"
+#  rss: "#"
   zhihu: "#"
   #qq: "#"
   #weixin: "#"
@@ -34,7 +34,7 @@ root:
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link:
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
@@ -48,7 +48,7 @@ open_in_new: false
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢支持'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay:
 # 微信二维码图片地址
@@ -73,7 +73,7 @@ gitment: true
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
+  header: '#495A80'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -93,11 +93,11 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  google: http://www.google.com
+#  友情链接2: http://localhost:4000/
+#  友情链接3: http://localhost:4000/
+#  友情链接4: http://localhost:4000/
+#  友情链接5: http://localhost:4000/
+#  友情链接6: http://localhost:4000/
 
 aboutme: 给个机会<br><br>以前没得选<br>现在<br>我想做个坏人
