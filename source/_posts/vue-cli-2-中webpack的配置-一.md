@@ -1,10 +1,8 @@
 ---
 title: 'vue-cli(#2)中webpack的配置(一)'
 date: 2017-10-07 22:39:39
-tags:
-      -webpack
-      -vue-cli
-      -vue
+tags: [webpack,vue-cli,vue]
+categories: [front]
 ---
 这篇基本上转载自滴滴前端团队的一片文章,感谢这样优秀的前端团队.
 

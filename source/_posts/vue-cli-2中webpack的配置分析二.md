@@ -1,9 +1,8 @@
 ---
 title: vue-cli-2中webpack的配置分析二
 date: 2017-10-08 10:44:20
-tags:
-    - vue-cli
-    - webpack
+tags: [webpack,vue-cli] 
+categories: [front]
 ---
 这片也是转载,[叶家伟的博客](http://www.cnblogs.com/ye-hcj/p/7077796.html),这里有一系列的vue-cli中webpack分析文章,可以移步阅读.
 另外还找到另外一片博客[vue-cli的webpack模板项目配置文件分析](http://blog.csdn.net/hongchh/article/details/55113751)

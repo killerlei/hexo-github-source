@@ -1,8 +1,8 @@
 ---
 title: webpack总结(一)
 date: 2017-10-07 12:24:53
-tags:
-    -webpack
+tags: [webpack] 
+categories: [front]
 ---
 # 前言
 

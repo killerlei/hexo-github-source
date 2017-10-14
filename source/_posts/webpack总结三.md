@@ -1,8 +1,8 @@
 ---
 title: webpack总结三
 date: 2017-10-07 21:05:18
-tags:
-    - webpack
+tags: [webpack] 
+categories: [front]
 ---
 
 ## 插件

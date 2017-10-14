@@ -1,7 +1,8 @@
 ---
 title: swiper-animate 冲突解决
 date: 2017-04-23 11:39:44
-tags: -swiper-animate
+tags: [swiper-animal] 
+categories: [front]
 ---
 # 冲突
 * swiper是个使用广泛，兼容性很高的js插件，可以独立使用，也可以跟jQuery配合使用。

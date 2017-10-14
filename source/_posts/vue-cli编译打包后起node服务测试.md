@@ -1,11 +1,8 @@
 ---
 title: vue-cli编译打包后起node服务测试
 date: 2017-10-08 14:37:32
-tags:
-    - vue-cli
-    - node
-    - vue
-    - webpack
+tags: [webpack,vue-cli,node,vue] 
+categories: [front]
 ---
 使用vue-cli开发项目中,一直使用dev-server.js这个本地服务,实现从内存中读取文件.
 

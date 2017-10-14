@@ -1,10 +1,8 @@
 ---
 title: vue-cli中process.env.NODE_ENV
 date: 2017-10-08 17:25:32
-tags:
-    - vue-cli
-    - webpack
-    - nodejs
+tags: [ vue-cli, webpack,nodejs] 
+categories: [front]
 ---
 看前面vue-cli讲解的文章,对process.env.NODE_ENV,一直不理解是怎么设置的,怎么就变成production或者development
     

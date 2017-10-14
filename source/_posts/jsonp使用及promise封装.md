@@ -1,17 +1,14 @@
 ---
 title: jsonp使用及promise封装
 date: 2017-10-05 11:38:12
-tags:
-    -跨域
-    -jsonp
-    -promise
-    -异步同步
+tags: [跨域,jsonp,promise,异步同步]
+categories: [front]
 ---
 
-1.
+1 .
 [jsonp](https://github.com/webmodules/jsonp)简单封装了跨域请求方法jsonp,利用script标签不受同源策略的限制,达到ajax的效果.
 
-2.
+2 .
 
         jsonp(url, opts, fn)
 
@@ -43,7 +40,6 @@ tags:
         }
         promise.then(function(value){......},function(err){....})
 
-
 4.利用promise改造jsonp
 
     import originJSONP from 'jsonp'
@@ -68,7 +64,6 @@ tags:
       return url ? url.substring(1) : ''
     }
 
-
 5.使用(在vue中使用)
 
     import jsonp from './xxxxx'
@@ -90,5 +85,3 @@ tags:
             })
         }
     }
-
-

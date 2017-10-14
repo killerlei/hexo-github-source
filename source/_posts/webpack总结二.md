@@ -1,8 +1,8 @@
 ---
 title: webpack总结二
 date: 2017-10-07 16:41:33
-tags:
-    -webpack
+tags: [webpack] 
+categories: [front]
 ---
 ### css
 webpack提供了两个工具处理样式表 --> css-loader 和 style-loader

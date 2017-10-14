@@ -1,10 +1,8 @@
 ---
 title: hexo+github+AppVeyor实现不同电脑写博客
 date: 2017-04-06 17:32:14
-tags: 
-    -hexo
-    -AppVeyor
-    -持续集成
+tags: [hexo,AppVeyor,持续集成]
+categories: [front]
 ---
 ## hexo + github 部分
 + 以前一直用的像[博客园](http://www.cnblogs.com/)这样专业的博客网站,但是一直想有个个人站点,正好github提供这样的类似功能,并且发现hexo这样的好工具.hexo使用markdown写文章,并且支持github部署.这就很完美了.
@@ -70,7 +68,6 @@ artifacts:
 ![](http://oo0zdjapt.bkt.clouddn.com/hexo/images/git-io.png)    
 
 就可以在[killerlei.github.io.](https://killerlei.github.io./)访问到新建的文章.
-
 
 ####  这样是不是很方便,换个电脑直接从源文件仓库clone下来,也不怕丢失.
 ps:如果使用了hexo的非默认主题,可能会遇到这样的情况(比如我用的yilia主题):<br>
