@@ -72,3 +72,28 @@ artifacts:
 ####  这样是不是很方便,换个电脑直接从源文件仓库clone下来,也不怕丢失.
 ps:如果使用了hexo的非默认主题,可能会遇到这样的情况(比如我用的yilia主题):<br>
 向源文件仓库push时,会失败,我在网上查了以下,好像是主题文件含有.git文件,本来受git控制,所以会冲突.需要删除.git. 我弄了好久才糊里糊涂弄好.如需帮助,请看[.git解决1](http://memory.blog.51cto.com/6054201/1217107)和[.git解决2](http://bbs.csdn.net/topics/390822726)
+
+//更新 2017-10-14
+
+使用持续集成,本地开发预览完整,但是线上会有问题,会遇到文章列表没有,提示 模块缺失,要安装 hexo-generator-json-content.
+这个问题其实是nodejs 版本低,APPVeyor默认的是version4,要设置builde选项中Platform为x86,并在appveyor.yml中设置
+
+```environment:
+  nodejs_version: "6"
+  access_token:
+    secure: DO1FA80B0MgslEfR6NntOIORHAtFOrzO70MvNfZK3OIHpXrundrrSBSx+nEkgx9m
+
+
+install:
+ # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version
+  # install modules
+  - npm install
+  - node --version
+  - npm --version
+  - npm install
+  - npm install hexo-cli -g
+
+  ```
+
+这样就ok了,会升级nodejs.
