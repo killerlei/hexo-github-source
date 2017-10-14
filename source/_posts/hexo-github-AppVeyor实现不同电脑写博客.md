@@ -1,7 +1,7 @@
 ---
 title: hexo+github+AppVeyor实现不同电脑写博客
 date: 2017-04-06 17:32:14
-tags: [hexo,AppVeyor,持续集成]
+tags:  [hexo, AppVeyor, 持续集成]
 categories: [front]
 ---
 ## hexo + github 部分

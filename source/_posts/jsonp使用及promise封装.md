@@ -1,7 +1,7 @@
 ---
 title: jsonp使用及promise封装
 date: 2017-10-05 11:38:12
-tags: [跨域,jsonp,promise,异步同步]
+tags: [跨域, jsonp, promise, 异步同步]
 categories: [front]
 ---
 
