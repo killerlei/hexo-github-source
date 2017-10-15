@@ -11,7 +11,7 @@ categories: [front]
 前面几篇文章,也有所设计跨域相关指示,这里总结一下,前端使用vue开发解决跨域的问题.
 
 1.因为跨域是浏览器的安全策略,在chorme浏览器中,可以在快捷图标中设置 --disable-web-security,非常方便.但是在最新chorme中还要稍加复杂的设置.
-
+<!--more-->
 2.使用chorme插件[Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog),需要翻墙,实际用起来,效果还不错.偶尔失效.
 
 3.使用jsonp ,前面有文章[jsonp使用及promise封装](https://killerlei.github.io./2017/10/05/jsonp%E4%BD%BF%E7%94%A8%E5%8F%8Apromise%E5%B0%81%E8%A3%85/).
