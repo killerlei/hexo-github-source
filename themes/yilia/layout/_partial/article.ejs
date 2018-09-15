@@ -1,14 +1,14 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %> <%if(index){%> article-index<%}%>" itemscope itemprop="blogPost">
   <div class="article-inner">
     <% if (post.link || post.title){ %>
-      <header class="article-header" style="background: #B0C4DE">
+      <header class="article-header" style="background: #272822">
         <%- partial('post/title', {class_name: 'article-title'}) %>
         <% if (!post.noDate){ %>
         <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
         <% } %>
       </header>
     <% } %>
-    <div class="article-entry" itemprop="articleBody" style="background: #F8F8FF;">
+    <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link) { %>
@@ -51,7 +51,7 @@
         </div>
       <% } %>
     </div>
-    <div class="article-info article-info-index" style="background: #778899;margin: 0 auto;">
+    <div class="article-info article-info-index" style="margin: 0 auto;">
       <%if(post.top){%>
         <div class="article-pop-out tagcloud">
           <i class="icon-tuding"></i>
